@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'StratosSkyeng', sans-serif;
+}
+
+/* Напиши свой CSS-код тут */
+
+.card__button {
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: #F99417;
+    padding: 9px 26px;
+    /* Это чтобы при наведении на кнопку курсор мыши менялся на руку */
+    cursor: pointer;
+}
+
+/* Эффект наведения курсора мыши на элемент с классом card__button */
+.card__button:hover {
+    /* Прозрачность всего элемента  - такое значение говорит браузеру показывать только 70% элемента по прозрачности */
+    opacity: .7;
+}
+
+.icon {
+    width: 20px;
+    color: #363062;
+}
